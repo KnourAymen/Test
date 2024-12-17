@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeux - Play Fun Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .games-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .game-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .game-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .game-card button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .game-card button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue dans le monde des jeux!</h1>
+    <p>Explorez nos jeux amusants et testez vos compétences!</p>
+</header>
+
+<div class="games-section">
+    <!-- Game 1 -->
+    <div class="game-card">
+        <img src="https://via.placeholder.com/150" alt="Game 1 Image">
+        <h3>Jeu 1</h3>
+        <p>Un jeu amusant pour passer le temps.</p>
+        <button onclick="alert('Vous avez cliqué sur Jeu 1!')">Jouer</button>
+    </div>
+    
+    <!-- Game 2 -->
+    <div class="game-card">
+        <img src="https://via.placeholder.com/150" alt="Game 2 Image">
+        <h3>Jeu 2</h3>
+        <p>Un autre jeu pour défier vos amis.</p>
+        <button onclick="alert('Vous avez cliqué sur Jeu 2!')">Jouer</button>
+    </div>
+    
+    <!-- Game 3 -->
+    <div class="game-card">
+        <img src="https://via.placeholder.com/150" alt="Game 3 Image">
+        <h3>Jeu 3</h3>
+        <p>Testez vos compétences avec ce défi.</p>
+        <button onclick="alert('Vous avez cliqué sur Jeu 3!')">Jouer</button>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Jeux Fun - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
